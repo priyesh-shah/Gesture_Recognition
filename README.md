@@ -29,21 +29,9 @@ The following models are created in this project
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- From base model or model 1
-    * The model is overfitting because the training accuracy is around 70% but validation accuracy is around 51% 
-    * also after epoch 7, there is a huge deviation in the loss between validation and training.
-- From model 1 post data augmentation
-    * The overfitting issue from model1 is resolved due to data augmentation
-    * However the training accuracy dropped from 70% to 40%
-    * Number of epocs can be increased or more layers added and/or tune the hyper parameters to increase accuracy
-- From model 2 post class re-balance
-    * Accuracy on training data has increased by class rebalance using Augmentor library
-    * Model is still overfitting
-    * Overfitting can be resolved by adding more layers, neurons and dropout layers
-    * Accuracy can be further improved by tuning the hyperparameters
+Model 14 (Final model) has good accuracy scores and less parameters compared to other models. Even though model 9 has a better accuracy scores there are considerably more parameters and hence Model 14 is chosen as the final model.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
 - numpy
@@ -52,7 +40,6 @@ The following models are created in this project
 - imageio
 - google colab
 - Jarvis
-
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -66,7 +53,7 @@ The following models are created in this project
  - Priyesh Shah (Moderator)
 
 ## Contact
-Created by [@chandamouli] and [@priyeshah] - feel free to contact us!
+Created by [@chandamouli] and [@priyesh-shah] - feel free to contact us!
 
 
 <!-- Optional -->
